@@ -1,0 +1,112 @@
+
+
+
+<!--meta information-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fitLyfe</title>
+    <link rel="stylesheet" href="style.css">
+    <script rel="script" href="script.js" defer></script>
+  <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCMOHM64sO-Jfmh4t_1VSXYA9hKO7muBas&callback=initMap&v=weekly"
+    ></script>
+  <script type="module" src="./index.ts"></script>
+</head>
+
+<body>
+  
+<img class = "logoImg" src= "https://cdn.glitch.global/6afc4efa-71e4-4ea1-b370-4279fc8fce5d/fitLyfe.png?v=1660663056696">
+  
+  
+  
+  <div class="topNav">
+  
+    <div class="form-container">
+     <form class="form">
+          <input id="search" type="text" class="input" placeholder="search..."/>
+          <button id="clear" class="clear-results">clear</button>
+     </form>
+  </div>
+  
+  <script async src="https://cse.google.com/cse.js?cx=b071b445f8c834240">
+</script>
+<div class="gcse-search"></div>
+  
+  <div class="results-container">
+    <ul class="results-list" id="list"></ul>
+  </div>
+  
+<div class="parse_bar">
+  <input data-v-5538db59="" id="ingredient-input" type="text" placeholder="Enter ingredient" required="required" aria-required="true" class="ingredient_input">
+
+  <div class="parsers">
+  <button data-v-5538db59="" type="submit" class="btn_parse" onclick = "onParse()">Parse</button>
+    <button data-v-5538db59="" type="reset" class="btn_reset">Reset</button>
+  </div>
+
+    </div>
+    
+  </div>
+<span class="openMenu" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+
+<div class="navDiv">
+<div class = "sidenav" id="nav_bar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times; </a>
+  <a class="nav_item" href="https://healthfully.com/330047-diabetic-diet-food-list.html" target="_blank" rel="">Diabetes</a>
+  <a class="nav_item" href="https://draxe.com/nutrition/calcium-deficiency/" target="_blank" rel="">Calcium</a>
+  <a class="nav_item" href="https://www.insider.com/guides/health/diet-nutrition/protein-deficiency" target="_blank" rel="">Proteins</a>
+  <a class="nav_item" href="https://www.healthline.com/nutrition/foods-high-in-sodium" target="_blank" rel="">Sodium</a>
+  <a class="nav_item" href="https://www.healthline.com/nutrition/foods-high-in-vitamin-a" target="_blank" rel="">Vitamin A</a>
+  <a class="nav_item" href="https://parade.com/1227568/kaitlin-vogel/vitamin-b-foods/#:~:text=20%20Vitamin%20B%20foods%20Here%20are%2020%20foods,This%20includes%20spinach%2C%20Swiss%20chard%2C%20watercress%20and%20cabbage." target="_blank" rel="">Vitamin B </a>
+</div>
+</div>
+  
+<div id="main_div">
+  
+   
+  
+  
+  <div class="cardContainer">
+
+
+    <div class="card">
+      <img class="dietImg" alt="Best Vitamin B12, Vitamin B12 Benefits, Vitamin Rich Foods, Biotin Benefits, B12 Foods, Easy Healthy Smoothie Recipes, Healthy Foods, Smoothie Diet Plans, Food Facts" importance="auto" loading="auto" src="https://i.pinimg.com/236x/cd/8e/70/cd8e70ea292f511c640140f7a9a93e5a.jpg">
+      <div data-test-id="desc" class="underImg" style="display: -webkit-box; text-overflow: ellipsis; -webkit-box-orient: vertical; -webkit-line-clamp: 2;"><div aria-disabled="false" class="CCY czT eEj FTD L4E DI9 BG7" role="button" tabindex="0"><span class="tBJ dyH iFc dR0 O2T zDA IZT swG">It's the perfect way to start your day by getting a healthy dose of fruits and veggies in one delicious drink which is very healthy for human body. Simples and Healthy Smoothies diet is very helpful to human body. It boost our nutritional value and Diet plan in our body. The best diet plan in 2022 in usa. #Smoothie #SmoothieRecipe #diet #weightloss #healthyfood</span></div></div>
+      <a class="recipe_link" href="https://shop-owl.com/buying-guide/top-five-b12-bing?tr=pe1jxLp&msclkid=ce4f3afea3d61788629e580248a4255f" target="_self" rel="">Click here to see recipies</a>
+      </div>
+
+
+    <div class="card">
+      <img class="dietImg" alt="Best Vitamin B12, Vitamin B12 Benefits, Vitamin Rich Foods, Biotin Benefits, B12 Foods, Easy Healthy Smoothie Recipes, Healthy Foods, Smoothie Diet Plans, Food Facts" importance="auto" loading="auto" src="https://cdn.glitch.global/6afc4efa-71e4-4ea1-b370-4279fc8fce5d/SpiceC.png?v=1660742341379">
+      <div data-test-id="desc" class="underImg" style="display: -webkit-box; text-overflow: ellipsis; -webkit-box-orient: vertical; -webkit-line-clamp: 2;"><div aria-disabled="false" class="CCY czT eEj FTD L4E DI9 BG7" role="button" tabindex="0"><span class="tBJ dyH iFc dR0 O2T zDA IZT swG">Use the kitchen spices that have amazing properties to enhance our overall immune system, boost weight loss, improve skin health, improves digestion, and is #GreenCoffeeDosageForWeightLoss </span></div></div>
+      <a class="recipe_link" href="https://www.healthifyme.com/blog/spices-for-weight-loss/" target="_self" rel="">Click here to see recipies</a>
+      </div>
+
+
+    <div class="card">
+      <img class="dietImg" alt="Best Vitamin B12, Vitamin B12 Benefits, Vitamin Rich Foods, Biotin Benefits, B12 Foods, Easy Healthy Smoothie Recipes, Healthy Foods, Smoothie Diet Plans, Food Facts" importance="auto" loading="auto" src="https://cdn.glitch.global/6afc4efa-71e4-4ea1-b370-4279fc8fce5d/JuiceJ.png?v=1660742687832">
+      <div data-test-id="desc" class="underImg" style="display: -webkit-box; text-overflow: ellipsis; -webkit-box-orient: vertical; -webkit-line-clamp: 2;"><div aria-disabled="false" class="CCY czT eEj FTD L4E DI9 BG7" role="button" tabindex="0"><span class="tBJ dyH iFc dR0 O2T zDA IZT swG">Lost 100 Pounds On A Smoothie Diet I Quit Drinking And Drunk Smoothies To Lose 100 Pounds</span></div></div>
+      <a class="recipe_link" href="https://www.allrecipes.com/gallery/easy-smoothie-recipes/?slide=6bf7be2c-a844-49f7-af8a-1abfb57c2c42#6bf7be2c-a844-49f7-af8a-1abfb57c2c42" target="_self" rel="">Click here to see recipies</a>
+      </div>
+
+    <div class="card">
+      <img class="dietImg" alt="Best Vitamin B12, Vitamin B12 Benefits, Vitamin Rich Foods, Biotin Benefits, B12 Foods, Easy Healthy Smoothie Recipes, Healthy Foods, Smoothie Diet Plans, Food Facts" importance="auto" loading="auto" src="https://cdn.glitch.global/6afc4efa-71e4-4ea1-b370-4279fc8fce5d/LemonG.png?v=1660742873794">
+      <div data-test-id="desc" class="underImg" style="display: -webkit-box; text-overflow: ellipsis; -webkit-box-orient: vertical; -webkit-line-clamp: 2;"><div aria-disabled="false" class="CCY czT eEj FTD L4E DI9 BG7" role="button" tabindex="0"><span class="tBJ dyH iFc dR0 O2T zDA IZT swG">Humans are one of the only species on the planet that does not produce its own vitamin C. Discover 5 ways to increase vitamin C levels!</span></div></div>
+      <a class="recipe_link" href="https://www.healthline.com/nutrition/vitamin-c-foods" target="_self" rel="">Click here to see recipies</a>
+    </div>
+
+  </div>
+  
+  <div id="map"></div>
+  
+  <div class="mapDiv">
+    <img class="madImg" alt="a map of local food stores" src="https://cdn.glitch.global/6afc4efa-71e4-4ea1-b370-4279fc8fce5d/image.png?v=1660836716066">
+  </div>
+  
+</div>
+
+</body>
+</html>
